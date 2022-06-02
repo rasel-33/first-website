@@ -5,11 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1::after{
+            content: "Hello Rasel";
+            color: rgb(87, 69, 48);
+        }
+        p:first-child i{
+            border: 20px solid black;
+            font-size: 12px;
+        }
+        .after-effect::before{
+            content: "Text ";
+            color: red;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>This is new Web development File</h1>
-    <p>Feeling happy now</p>
-    <p>This another good day for my classmates without exam</p>
-    <p>This is Shamim Ahammad Rasel and want to work with you</p>
+    <h1 class="after-effect">Pseudo class</h1>
+    <h1 class="after-effect">Normal class</h1>
+    <p><span>Rasel is good</span><span>Another good boy is rubel</span></p>
+    <p><span>Another good boy is rubel</span></p>
+    <ul>
+        <p>Rasel</p>
+        <p>Rubel</p>
+        <p>Bipasha</p>
+    </ul>
 </body>
 </html>
